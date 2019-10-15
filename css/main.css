@@ -48,6 +48,11 @@ input[type=text], input[type=password] {
 display: flex;
 padding-left: 70px;
 padding-right: 70px;
+padding-top: 40px;
+}
+
+.solve{
+  padding-top: 6rem;
 }
   
 #btn{
