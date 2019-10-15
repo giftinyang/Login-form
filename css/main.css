@@ -1,6 +1,5 @@
 .body{
     height: 200px;
-    background-color: red;
     background-image: linear-gradient (rgba(10, 10, 10),rgba(10, 10,10));
 }
 
@@ -47,14 +46,11 @@ input[type=text], input[type=password] {
 
 .owners{
 display: flex;
+padding-left: 70px;
+padding-right: 70px;
 }
   
-  @media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
-  }
+#btn{
+  position: relative;
+  left: 5rem;
+}
