@@ -1,8 +1,14 @@
-.body{
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
     height: 200px;
-    background-image: linear-gradient (rgba(10, 10, 10),rgba(10, 10,10));
+    background:  url('/assest/images/bg-intro-desktop.png');
+    font-family: 'Poppins', sans-serif;
 }
 
+p{
+  word-wrap: normal;
+}
 
 input[type=text], input[type=password] {
     width: 100%;
@@ -47,8 +53,8 @@ input[type=text], input[type=password] {
 .owners{
 display: flex;
 padding-left: 70px;
-padding-right: 70px;
-padding-top: 40px;
+ padding-right: 70px;
+padding-top: 40px; 
 }
 
 .solve{
@@ -57,5 +63,36 @@ padding-top: 40px;
   
 #btn{
   position: relative;
-  left: 5rem;
+  left: 1rem;
+  width: 15rem;
+}
+
+#remember{
+  float: right;
+  position: relative;
+  top: 1rem;
+  font-size: 1.1rem;
+}
+button{
+  border: none;
+  /* background: none; */
+  box-shadow: 3px 3px 5px .75px #ccc;
+  border-radius: 5px; 
+}
+
+#claim{
+  background-color: rgb(9, 105, 9);
+}
+
+.card{
+  background: #f8f8f8;
+  padding: 3rem;
+  border-radius: 7px;
+  height: 70vh;
+  box-shadow: 3px 3px 5px .75px #ccc;
+  margin-left: 3rem;
+}
+h1{
+  font-size: 2.5rem;
+  font-weight: 700;
 }
