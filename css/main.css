@@ -1,3 +1,8 @@
+.body{
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient (rgba(10, 10, 10),rgba(10, 10,10));
+}
 
 
 input[type=text], input[type=password] {
@@ -16,7 +21,8 @@ input[type=text], input[type=password] {
     margin: 8px 0;
     border-radius: 12px;
     cursor: pointer;
-    width: 100%;
+    width: 40%;
+    flex-direction: column;
   }
   
   button:hover {
@@ -38,6 +44,10 @@ input[type=text], input[type=password] {
     float: right;
     padding-top: 16px;
   }
+
+.owners{
+display: flex;
+}
   
   @media screen and (max-width: 300px) {
     span.psw {
