@@ -109,14 +109,27 @@ h1{
   }
   .card{
     box-sizing: border-box;
-    width: 100% !important;
-    height: 350px;
+    width: 20rem !important;
+    height: 40rem;
     margin-left: -30px !important;
+    position: relative;
+    left: -3rem;
+  }
+
+  #claim{
+    width: 15rem;
+    position: relative;
+    right: 1.5rem;
+  }
+
+  #btn{
+    position: relative;
+    left: -1.1rem;
   }
 
   input{
       box-sizing: border-box;      
       margin-left: -20px !important;
-      padding-right: 20px !important;
+      padding-right: 1.5rem !important;
   }
 }
