@@ -96,3 +96,27 @@ h1{
   font-weight: 700;
 }
 
+@media only screen and (max-width:400px){
+  .owners{
+    box-sizing: border-box;
+    width: 100% !important;
+    display: block;
+  }
+
+  .solve{
+    box-sizing: border-box;
+    width: 100% !important;
+  }
+  .card{
+    box-sizing: border-box;
+    width: 100% !important;
+    height: 350px;
+    margin-left: -30px !important;
+  }
+
+  input{
+      box-sizing: border-box;      
+      margin-left: -20px !important;
+      padding-right: 20px !important;
+  }
+}
